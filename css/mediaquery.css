@@ -1,0 +1,643 @@
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+
+    /* container */
+
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    /* container */
+
+    /* start home */
+
+    .contain{
+        position: relative;
+        z-index: 2;
+        padding: 20px 20px;
+        color: #f1f1f1;
+        background-color: transparent;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .home .caption h3{
+        color: #fff;
+        font-size: 18px;
+        padding: 10px;
+    }
+    
+    .home .caption h1{
+        font-size: 32px;
+        font-weight: bold;
+        color: #ff305b;
+        text-transform: uppercase;
+    }
+
+    .home .caption p{
+        padding: 10px;
+        font-size: 18px;
+        color: #fff;
+        text-transform: capitalize;
+        font-weight: 100;
+        width: 240px;
+    }
+
+    
+    
+    .contain ul{
+        display: flex;
+        list-style: none;
+        flex-direction: column;
+        display: none;
+        background-color: rgba(62, 56, 58, 0.4);
+        padding: 5px 25px;
+    }
+
+
+    .navbar i{
+        font-size: 25px;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row-reverse;
+    }
+
+
+    .contain .links{
+        transition: 1s;
+    }
+    
+    .contain .links:hover ul{
+        text-align: center;
+        padding-top: 20px;
+        display: block;
+        
+    }
+
+    /* end home */
+
+    /* Start About Section */
+
+    .about-content{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-border{
+        width: 100%;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .about-box{
+        display: flex;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+    .about .description {
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 125px;
+    width: 100%;
+    }
+
+    .about-list{
+        width: 100%;
+    }
+
+    .description ul {
+        list-style: none;
+        overflow: hidden;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    
+    .description ul li {
+        color: #555555;
+        margin-bottom: 25px;
+    }
+
+    /* End About Section */
+
+    /* Title */
+    .title {
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+        padding-top: 30px;
+    }
+    /* Title */
+
+    /* Start Services */
+
+    .services .product {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* End Services */
+
+    /* Start Portfolio */
+
+    .all-products .products .img {
+        width: 100%;
+        margin: 15px 0;
+        position: relative;
+    }
+
+    .buttons button {
+        margin-bottom: 5px;
+    }
+
+    /* End Portfolio */
+    
+    /* Start States */
+
+    .statics .states .state {
+        margin: 50px 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .statics .states {
+        overflow: hidden;
+        margin: 30px 0;
+    }
+
+    /* End States */
+
+        /* Start Client Feedback */
+
+        .cl-card {
+            margin: 30px auto;
+            width: 100%;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cleint-one {
+            background-color: #f1f1f1;
+            display: flex;
+            padding: 40px;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-items: center;
+        }
+
+        .card-description {
+            margin-left: -20px;
+            margin-top: 16px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* End Client Feedback */
+
+        .our-blog .ob-card {
+            background-color: #fff;
+            width: 100%;
+            margin: 30px 0;
+        }
+
+        /* End Client Feedback */
+
+        /* Start Contact Us Section */
+
+        .contact-us {
+            width: 100%;
+            margin: 20px auto;
+        }
+
+        .contact-us-form .name {
+            width: 100%;
+            margin-bottom: 20px;
+            margin-right: 0;
+        }
+
+        .contact-us-form .email {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        /* End Contact Us Section */
+        
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    
+    /* container */
+
+    .container {
+        width: 70%;
+        margin: 125px auto;
+    }
+
+    /* container */
+
+        /* start home */
+
+        .contain{
+            margin: 0 100px;
+            position: relative;
+            z-index: 2;
+            padding: 20px 20px;
+            color: #f1f1f1;
+            background-color: transparent;
+            display: flex;
+            justify-content: space-between;
+        }
+    
+        .home .caption h3{
+            color: #fff;
+            font-size: 18px;
+            padding: 10px;
+        }
+        
+        .home .caption h1{
+            font-size: 32px;
+            font-weight: bold;
+            color: #ff305b;
+            text-transform: uppercase;
+        }
+    
+        .home .caption p{
+            padding: 10px;
+            font-size: 18px;
+            color: #fff;
+            text-transform: capitalize;
+            font-weight: 100;
+            width: 240px;
+        }
+    
+        .contain ul{
+            display: flex;
+            list-style: none;
+            flex-direction: column;
+            display: none;
+            background-color: rgba(62, 56, 58, 0.4);
+            padding: 5px 25px;
+        }
+    
+    
+        .navbar i{
+            font-size: 25px;
+            display: flex;
+            justify-content: flex-end;
+            flex-direction: row-reverse;
+        }
+    
+    
+        .contain .links{
+            transition: 1s;
+        }
+        
+        .contain .links:hover ul{
+            text-align: center;
+            padding-top: 20px;
+            display: block;
+            
+        }
+    
+        /* end home */
+    
+        /* Start About Section */
+    
+        .about-content{
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .about-border{
+            width: 100%;
+            border: none;
+            border-radius: 5px;
+        }
+    
+        .about-box{
+            display: flex;
+            position: relative;
+            top: 0;
+            left: 0;
+        }
+    
+        .about .description {
+            display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 0 125px;
+        width: 100%;
+        }
+    
+        .about-list{
+            width: 100%;
+        }
+    
+        .description ul {
+            list-style: none;
+            overflow: hidden;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+        }
+        
+        .description ul li {
+            color: #555555;
+            margin-bottom: 25px;
+        }
+    
+        /* End About Section */
+    
+        /* Title */
+        .title {
+            width: 100%;
+            text-align: center;
+            font-size: 14px;
+            padding-top: 30px;
+        }
+        /* Title */
+    
+        /* Start Services */
+    
+        .services .product {
+            width: 100%;
+            text-align: center;
+        }
+    
+        /* End Services */
+    
+        /* Start Portfolio */
+    
+        .all-products .products .img {
+            width: 100%;
+            margin: 15px 0;
+            position: relative;
+        }
+    
+        .buttons button {
+            margin-bottom: 5px;
+        }
+    
+        /* End Portfolio */
+        
+        /* Start States */
+    
+        .statics .states .state {
+            margin: 50px 0;
+            width: 100%;
+            text-align: center;
+        }
+    
+        .statics .states {
+            overflow: hidden;
+            margin: 30px 0;
+        }
+    
+        /* End States */
+    
+            /* Start Client Feedback */
+    
+            .cl-card {
+                margin: 30px auto;
+                width: 100%;
+                position: relative;
+                overflow: hidden;
+            }
+    
+            .cleint-one {
+                background-color: #f1f1f1;
+                display: flex;
+                padding: 40px;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                align-items: center;
+            }
+    
+            .card-description {
+                margin-left: -20px;
+                margin-top: 16px;
+                display: flex;
+                flex-direction: column;
+            }
+    
+            /* End Client Feedback */
+    
+            .our-blog .ob-card {
+                background-color: #fff;
+                width: 100%;
+                margin: 30px 0;
+            }
+    
+            /* End Client Feedback */
+    
+            /* Start Contact Us Section */
+    
+            .contact-us {
+                width: 100%;
+                margin: 20px auto;
+            }
+    
+            .contact-us-form .name {
+                width: 100%;
+                margin-bottom: 20px;
+                margin-right: 0;
+            }
+    
+            .contact-us-form .email {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+    
+            /* End Contact Us Section */
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+/* Navbar */
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contain{
+    padding: 20px 100px;
+
+}
+
+.contain ul{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    display: none;
+    background-color: rgba(62, 56, 58, 0.4);
+    padding: 5px 25px;
+}
+
+
+.navbar i{
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+}
+
+
+.contain .links{
+    transition: 1s;
+}
+
+.contain .links:hover ul{
+    text-align: center;
+    padding-top: 20px;
+    display: block;
+    
+}
+
+/* Navbar */
+
+/* About Section */
+
+.about-content {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-border {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+
+.about .description {
+    width: 48%;
+    margin-left: 2%;
+    float: left;
+    padding: 100px 0 125px;
+}
+
+/* End About Section */
+
+/* Start Our services Section */
+
+.services .product {
+    width: 50%;
+    float: left;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    margin: 30px 0;
+}
+
+/* End Our services Section */
+
+/* Start Our Product Section */
+
+.all-products .products {
+    overflow: hidden;
+    margin: 0 0 50;
+}
+
+.all-products .products .img {
+    width: 48%;
+    float: left;
+    margin: 1%;
+    position: relative;
+}
+
+/* End Our Product Section */
+
+/* Start Client Feedback */
+
+.cl-card {
+    margin: 30px auto;
+    width: 80%;
+    position: relative;
+    overflow: hidden;
+}
+
+/* End Client Feedback */
+
+/* Contact Us Section */
+
+.contact-us {
+    width: 90%;
+    margin: 20px auto;
+}
+
+/* Contact Us Section */
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+    /*Start About Section  */
+
+    .about-content {
+        display: flex;
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .about-border {
+        width: 100%;
+        border: none;
+        border-radius: 5px;
+    }
+    
+    .about .description {
+        width: 48%;
+        margin-left: 2%;
+        float: left;
+        padding: 100px 0 125px;
+    }
+    
+
+    /*End About Section  */
+
+    /*Start Services Section */
+
+    .container {
+        width: 90%;
+        margin: 125px auto;
+    }
+
+    /*End Services Section */
+
+    /*Start Client FeedBack Section */
+
+    .cl-card {
+        margin: 30px auto;
+        width: 69%;
+        position: relative;
+        overflow: hidden;
+    }
+
+    /*End Client FeedBack Section */
+
+}
